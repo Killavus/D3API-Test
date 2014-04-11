@@ -1,7 +1,6 @@
 require 'spec_helper'
 
-describe Bnet_Account do
-  
+describe Account do
   subject { described_class.new name: "Test", battle_tag: 1234 }
   
   describe '#name' do
@@ -15,5 +14,4 @@ describe Bnet_Account do
       subject.battle_tag.should eq 1234
     end
   end
-
 end
