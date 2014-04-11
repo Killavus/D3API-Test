@@ -1,6 +1,6 @@
 class Account
   include Virtus.model
 
-  attribute :name
-  attribute :battle_tag
+  attribute :name, String
+  attribute :battle_tag, Integer
 end
