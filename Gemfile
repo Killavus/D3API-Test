@@ -14,6 +14,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'dependor'
 gem 'virtus'
 gem 'shoulda-matchers'
 

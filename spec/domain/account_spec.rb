@@ -16,7 +16,7 @@ describe Account do
   end
 
   context 'has heroes on account' do
-    let(:example_hero) { double 'Hero', name: 'Ildefons', level: 70 }
+    let(:example_hero) { Hero.new name: 'Ildefons', level: 70 }
     subject { described_class.new name: 'Test', battle_tag: 1234, heroes: [example_hero] }
 
     describe '#heroes' do
